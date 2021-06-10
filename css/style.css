@@ -92,8 +92,14 @@ input[type="search"]:focus {
   cursor: pointer;
 }
 
+.main-slider {
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
 .slider {
-  margin-top: 10%;
   width: 700px;
   height: 500px;
   overflow: hidden;
@@ -129,4 +135,13 @@ input[type="search"]:focus {
 
 #radio3:checked ~ .first {
   margin-left: -40%;
+}
+
+.text {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 10%;
+  font-size: 23px;
 }
