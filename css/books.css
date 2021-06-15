@@ -137,6 +137,9 @@
       justify-content: space-evenly;
       flex-wrap: wrap;
     }
+    .map {
+      transform: scale(0.9)
+    }
   }
   @media (max-width: 1080px) {
     .new-books {
@@ -145,5 +148,8 @@
       /* flex-direction: column; */
       justify-content: space-evenly;
       flex-wrap: wrap;
+    }
+    .map {
+      transform: scale(0.9)
     }
   }
