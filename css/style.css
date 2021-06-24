@@ -4,6 +4,62 @@
  body {
  margin: auto;
 } 
+#background{
+width: 100%;
+background-color: transparent;
+height: 100vh;
+position: fixed;
+display: none;
+z-index: 50;
+
+}
+#registr{
+  z-index: 100;
+  display: none;
+}
+.form ::placeholder{
+  color: red;
+  font-size: 17px;
+}
+
+.form {
+  background-image: url(../images/navbar.jpg);
+  color: #e6e154;
+  width: 30%;
+  line-height: 30px;
+  padding: 20px;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform:translate(-50%,-50%)
+ }
+ .form input{
+     width: 100%;
+     margin-top: 10px;
+     height: 40px;
+     border-radius: 10px;
+     border-style: none;
+     font-size: 25px;
+ }
+ .form p{
+     color: red;
+ }
+ .form button{
+  border-radius: 4px;
+  background-color: #969547;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+ }
+ .form button:hover{
+   background-color: transparent;
+   border: 1px solid #969547;
+ }
 .header {
   display: flex;
   align-items: center;
@@ -25,6 +81,27 @@
 .header a:hover {
   cursor: pointer;
   color: #e6e154;
+}
+#icon{
+  display: none;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+}
+#icon div{
+  width: 100%;
+  border: 1px solid #969547;
+  margin-top: 10px;
+}
+#icon:hover .div1{
+  transform: rotate(360deg);
+  transition: 4s;
+}
+#icon:hover .div2{
+  transform: rotate(-360deg);
+  transition: 4s;
 }
 .logo > h1 {
   float: right;
@@ -303,15 +380,12 @@ h2{
     width: 320px;
     padding: 15px;
   }
-  /* #gmap_canvas {
-    width: 320px;
-  } */
   .fix {
     top: 40%;
     width: 25px;
   }
   .navbar a{
-    font-size: 25px;
+    font-size: 15px;
   }
   .navbar {
     position: static;
@@ -340,6 +414,10 @@ h2{
   }
   .navbar a{
     font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    line-height: 40px;
   }
   .fix {
     top: 40%;
@@ -348,5 +426,22 @@ h2{
   .newsText {
     width: 420px;
     padding: 15px;
+  }
+  #icon{
+    display: block;
+  }
+  #nav{
+    display: none;
+}
+}
+@media (min-width:1080px){
+  #icon{
+    display: none;
+  }
+  #nav{
+    display: block;
+}
+  .navbar{
+    height: 60px;
   }
 }

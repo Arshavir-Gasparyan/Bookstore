@@ -16,9 +16,12 @@
 }
 .about a{
     text-decoration: none;
-    color: white;
+    color: #969547;
     font-size: 30px;
     cursor: pointer;
+}
+.about a:hover{
+    color:#e6e154 ;
 }
 .about p{
     color: #969547 ;
