@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <div id="background"></div>
+    <div id="registr" class="form" >
+      <form id="form" name="form"> 
+          <label for="">Անուն</label>
+          <input id="inp1" type="text" name="firstname" id="firstname" placeholder="">
+          <label for="">Ազգանուն</label>
+          <input id="inp2" type="text" name="lastname" id="lastname">
+          <label for="">Էլ․ փոստ</label>
+          <input id="inp3" type="text" name="email" id="email">
+          <label for="">Գաղտնաբառ</label>
+          <input id="inp4" type="password" name="password" id="password">
+          <button type="submit">Հաստատել</button>
+      </form>
+  </div>
     <header class="header">
       <div class="logo">
         <!-- <img width="70px" src="images/logo.jpg" alt="" /> -->
@@ -18,7 +32,7 @@
       </div>
       <div class="search">
         <form action="">
-          <input type="search" placeholder="search books" value="" /><button
+          <input id="url" type="search" placeholder="search books" value="" /><button
             class="btn"
           >
             Որոնել
@@ -26,16 +40,21 @@
         </form>
       </div>
       <div>
-        <a href="">Մուտք</a>
+        <a id="registration" href="">Մուտք</a>
         <a href="">Գրանցվել</a>
       </div>
     </header>
-    <nav class="navbar">
-      <div class="menu">
+    <nav  class="navbar">
+      <div id="nav" class="menu">
         <a href="index.html">Գլխավոր</a>
         <a href="html/books.html">Գրքեր</a>
         <a href="html/about.html">Մեր մասին</a>
         <a href="#footer">Կապ</a>
+      </div>
+      <div id="icon">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div1"></div>
       </div>
     </nav>
 
