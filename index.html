@@ -8,6 +8,25 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <div id="api">
+   
+      <div id="table">
+          <table id="tab">
+              <thead>
+                  <tr>
+                      <th>Title</th>
+                      <th>Author Name</th>
+                      <th>First publish year</th>
+                  </tr>
+              </thead>
+              <tbody >     
+              </tbody>
+          </table>          
+      </div>
+      <div id="buttons">
+          <button id="next">next</button><button id="prev">prev</button>
+      </div>
+      </div>
     <div id="background"></div>
     <div id="registr" class="form" >
       <form id="form" name="form"> 
@@ -19,7 +38,7 @@
           <input id="inp3" type="text" name="email" id="email">
           <label for="">Գաղտնաբառ</label>
           <input id="inp4" type="password" name="password" id="password">
-          <button type="submit">Հաստատել</button>
+          <button id="formSubmit" type="submit">Հաստատել</button>
       </form>
   </div>
     <header class="header">
@@ -31,13 +50,10 @@
         >
       </div>
       <div class="search">
-        <form action="">
-          <input id="url" type="search" placeholder="search books" value="" /><button
-            class="btn"
-          >
-            Որոնել
-          </button>
-        </form>
+        
+          <input id="url"  type="text" placeholder="search books" value="" /><button id="searchBooks"
+            class="btn"> Որոնել </button>
+        
       </div>
       <div>
         <a id="registration" href="">Մուտք</a>
