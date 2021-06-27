@@ -3,7 +3,43 @@
 }
  body {
  margin: auto;
-} 
+ }
+ #api{
+   width: 70%;
+  position: absolute;
+  top: 12%;
+  left: 13%;
+   text-align: center;
+   background-image: url(../images/navbar.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+  display: none;
+  z-index: 100;
+  margin: auto;
+  color: white;
+ }
+ #api td{
+   width: 33%;
+ }
+ #buttons button{
+   font-size: 20px;
+   background-color: inherit;
+   border: 1px solid white;
+   color: white;
+   padding:5px 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+#buttons button:hover{
+  cursor: pointer;
+  background-color: #e6e154;
+  color: white;
+  border: none;
+}
+#tab th{
+  color: #e6e154;
+  font-size: x-large;
+}
 #background{
 width: 100%;
 background-color: transparent;
@@ -171,7 +207,11 @@ input[type="search"]:focus {
   font-size: 16px;
   cursor: pointer;
 }
-
+.btn:hover{
+  background-color: inherit;
+  color: #969547;
+  border: 1px solid #969547;
+}
 .main-slider {
   display: flex;
   justify-content: space-evenly;
