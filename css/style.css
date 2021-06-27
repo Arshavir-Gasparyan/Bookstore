@@ -243,10 +243,9 @@ input[type="search"]:focus {
 }
 
 .slide img {
-  width: 700px;
-  height: 500px;
+  width: 95%;
+  height: 380px;
 }
-
 #radio1:checked ~ .first {
   margin-left: 0;
 }
