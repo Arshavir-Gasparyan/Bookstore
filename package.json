@@ -1,0 +1,27 @@
+{
+  "name": "luys",
+  "version": "1.0.0",
+  "description": "bookstore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arshavir-Gasparyan/bookstore.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "ACA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arshavir-Gasparyan/bookstore/issues"
+  },
+  "homepage": "https://github.com/Arshavir-Gasparyan/bookstore#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
