@@ -1,4 +1,5 @@
 let counter = 1;
+
 export const interval = setInterval(function () {
   document.getElementById("radio" + counter).checked = true;
   counter++;
